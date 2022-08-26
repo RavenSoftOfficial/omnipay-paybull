@@ -1,0 +1,35 @@
+{
+    "name": "ravensoft/omnipay-paybull",
+    "description": "Paybull driver for the Omnipay PHP payment processing library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Paybull\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnipay\\Paybull\\Tests\\": "tests/unit",
+            "Omnipay\\Paybull\\Stubs\\": "tests/stubs"
+        }
+    },
+
+    "support": {
+        "email": "teknik@ravensoft.com.tr"
+    },
+    "authors": [
+        {
+            "name": "RavenSoft",
+            "role": "Developer",
+            "email": "info@ravensoft.com.tr",
+            "homepage": "https://ravensoft.com.tr/"
+        }
+    ],
+    "require": {
+        "omnipay/common": "^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3.0"
+    }
+}
